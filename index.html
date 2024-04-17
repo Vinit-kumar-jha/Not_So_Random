@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Number Generator</h1>
+        <div class="results-container">
+            <div class="result">
+                <button id="generateBtn">Generate Random Number</button>
+                <p>Random Number between 1 to 10: <span id="randomNumber"></span></p>
+            </div>
+            <div class="result">
+                <button id="generateBtn2">Generate Random Number</button>
+                <p>Random Number between 10 to 100: <span id="randomNumber2"></span></p>
+            </div>
+            <div class="theme"> <button id="theme_change">  </button> </div>
+        </div>
+        <div class="statistics-container">
+            <h2>Statistics and Analysis</h2>
+            <div class="statistic">
+                <p>Average: <span id="average"> </span></p>
+            </div>
+            <div class="statistic">
+                <p>Median: <span id="median"> </span></p>
+            </div>
+            <div class="statistic">
+                <p>Mode: <span id="mode"> </span></p>
+            </div>
+            
+        </div>
+    </div>
+
+    <canvas id="histogramChart" width="2000" height="900"></canvas>
+    <script src="script.js"></script>
+
+    
+
+    
+</body>
+</html>
